@@ -1,0 +1,65 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    padding-top: 13px;
+    width: 314px;
+    height: 259px;
+    left: 24px;
+    top: 176px;
+    background: #F7F7F7;
+    border-radius: 9px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 21px;
+    padding-left: 7px;
+    padding-right: 9px;
+}
+
+.tabName {
+    width: 69.76px;
+    height: 35.44px;
+    left: 31px;
+    top: 197.77px;
+    background: linear-gradient(94.33deg, #FF8412 22.44%, #FF8412 22.45%, #B1008A 124.46%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.profileSection {
+    margin: 10px;
+    display: flex;
+    padding-left: 10px;
+}
+
+.profileImage {
+    border-radius: 40px;
+    width: 84px;
+    height: 84px;
+    left: 31px;
+    top: 260px;
+    margin-top: 35px;
+    background-color: #B1008A;
+}
+
+.textSection {
+    width: 187px;
+    height: 24px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #000000;
+    margin: 20px 0px 0px 10px;
+}
+.bottomTabs {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 21px;
+    padding-left: 7px;
+    padding-right: 9px;
+}

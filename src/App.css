@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+.header{
+  width: 320px;
+  height: 49px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  padding: 0px 30px 22px 15px;
+}
+
+.banner{
+display: flex;
+align-items: center;
+justify-content: space-around;
+width: 314px;
+height: 75px;
+left: 24px;
+top: 88px;
+background: linear-gradient(96.25deg, #0037C5 8.58%, #08005F 102.54%);
+border-radius: 9px;
+color: white;
+}
+.button{
+
+width: 86.7px;
+height: 35.44px;
+left: 237px;
+top: 106.77px;
+
+background: linear-gradient(83.18deg, #FF8412 -30.08%, #D23758 60.11%, #B1008A 97.49%);
+border: 1px solid #FFFFFF;
+border-radius: 50px;
+}
+

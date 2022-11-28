@@ -1,3 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  /* list-style: none; */
+}
 .App {
   text-align: center;
   padding: 20px;
@@ -41,4 +48,8 @@ background: linear-gradient(83.18deg, #FF8412 -30.08%, #D23758 60.11%, #B1008A 9
 border: 1px solid #FFFFFF;
 border-radius: 50px;
 }
-
+.backbutton{
+  width: 321px;
+  height: 49px;
+  border-radius: 25px;
+}

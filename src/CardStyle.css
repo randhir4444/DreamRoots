@@ -19,19 +19,14 @@
 }
 
 .tabNameSelected {
-    width: 69.76px;
-    height: 35.44px;
-    left: 31px;
-    top: 197.77px;
     background: linear-gradient(94.33deg, #FF8412 22.44%, #FF8412 22.45%, #B1008A 124.46%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
+    padding: 8px 14px;
 }
+
 .tabName {
-    width: 69.76px;
-    height: 35.44px;
-    left: 31px;
-    top: 197.77px;
+    padding: 8px 14px;
     background: white;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
@@ -42,7 +37,8 @@
     display: flex;
     padding-left: 10px;
 }
-.profileImagesection{
+
+.profileImagesection {
     border-radius: 40px;
     width: 84px;
     height: 84px;
@@ -73,22 +69,27 @@
     line-height: 100%;
     text-align: left;
 }
-.tag{
+
+.tag {
     color: #E97000;
     height: 24px;
     width: 200px;
     border-radius: nullpx;
     ;
 }
+
+.bottomtabName {
+    padding: 8px 14px;
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
 .bottomTabsSelcted {
-    width: 95px;
-    height: 35px;
-    font-size: 10px;
+    padding: 8px 14px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
     background-color: blue;
     color: white;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
 }

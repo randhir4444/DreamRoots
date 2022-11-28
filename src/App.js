@@ -21,6 +21,9 @@ function App() {
       <div className="showCard">
         <Card/>
       </div>
+      <div>
+        <button className="backbutton">Back</button>
+      </div>
     </div>
   );
 }

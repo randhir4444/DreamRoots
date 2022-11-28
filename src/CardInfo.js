@@ -1,9 +1,10 @@
 import user from './user.svg';
+import './CardStyle.css';
 
 const CardInfo = [
     {
     tabs: ["Clinic","Test","Surgery","Medicine"],
-    profileImage: "image1",
+    profileImage: <img className='profileImage' src={user}/>,
     date: "17th September 2021, 9:30 PM",
     tag: "Appointment with doctor Arun",
     clinic: "Doctor World Clinic",
@@ -14,7 +15,7 @@ const CardInfo = [
     },
     {
     tabs: ["Clinic","Test","Surgery","Medicine"],
-    profileImage: "image1",
+    profileImage: <img className='profileImage' src={user}/>,
     date: "18th September 2021, 9:30 PM",
     tag: "Appointment with doctor Arun",
     clinic: "Doctor World Clinic",

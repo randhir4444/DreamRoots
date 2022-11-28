@@ -1,14 +1,22 @@
-import React from 'react';
+import React, {useState} from 'react';
 import CardInfo from './CardInfo';
 import './CardStyle.css';
 
 const Tabs = (tabData) => {
+  const [selected, setselected] = useState([]);
+  const onchange=(element)=>{
+    let array=[...selected];
+    if(array.includes(element))
+    array.splice(array.indexOf(element),1);
+    else array.push(element);
+    setselected(array);
+  }
     return (
       <>
         {tabData.map((tab) => {
           return (
             <div key={tab} className="tabBar">
-              <button className="tabName">{tab}</button>
+              <button onClick={() => onchange(tab)} className={selected.includes(tab) ? "tabNameSelected" : "tabName"} >{tab}</button>
             </div>
           );
         })}
@@ -24,10 +32,10 @@ const Card = () => {
           <div key={data.date} className="card">
             <div className="tabs">{Tabs(data.tabs)}</div>
             <div className="profileSection">
-              <div className="profileImage">{data.profileImage}</div>
+              <div className="profileImagesection">{data.profileImage}</div>
               <div className="textSection">
                 <p>{data.date}</p>
-                <p>{data.tag}</p>
+                <p className="tag">{data.tag}</p>
                 <p>{data.clinic}</p>
               </div>
             </div>

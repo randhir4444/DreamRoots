@@ -1,10 +1,13 @@
 import './App.css';
 import Card from './Card';
+import { IoIosArrowBack } from 'react-icons/io';
+
 
 function App() {
   return (
     <div className="App">
       <div className="header">
+      <div className="backlogo"><h2> <IoIosArrowBack /></h2></div>
         <div className="title">UPCOMING APPOINTMENTS</div>
       </div>
       <div className="banner">

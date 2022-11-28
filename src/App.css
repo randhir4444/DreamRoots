@@ -1,16 +1,24 @@
 .App {
   text-align: center;
   padding: 20px;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  flex-direction: column;
 }
 .header{
   width: 320px;
   height: 49px;
   align-items: center;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   font-size: 15px;
-  padding: 0px 30px 22px 15px;
+  padding: 0px 30px 22px 0px;
 }
+.title{
+  padding-right: 40px;
+}
+
 
 .banner{
 display: flex;
@@ -25,12 +33,10 @@ border-radius: 9px;
 color: white;
 }
 .button{
-
 width: 86.7px;
 height: 35.44px;
 left: 237px;
 top: 106.77px;
-
 background: linear-gradient(83.18deg, #FF8412 -30.08%, #D23758 60.11%, #B1008A 97.49%);
 border: 1px solid #FFFFFF;
 border-radius: 50px;
